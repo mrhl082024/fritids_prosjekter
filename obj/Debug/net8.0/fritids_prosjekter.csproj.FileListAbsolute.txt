@@ -1,0 +1,15 @@
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\bin\Debug\net8.0\fritids_prosjekter.exe
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\bin\Debug\net8.0\fritids_prosjekter.deps.json
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\bin\Debug\net8.0\fritids_prosjekter.runtimeconfig.json
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\bin\Debug\net8.0\fritids_prosjekter.dll
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\bin\Debug\net8.0\fritids_prosjekter.pdb
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.AssemblyInfoInputs.cache
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.AssemblyInfo.cs
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.csproj.CoreCompileInputs.cache
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.sourcelink.json
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.dll
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\refint\fritids_prosjekter.dll
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.pdb
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\fritids_prosjekter.genruntimeconfig.cache
+C:\Users\larmi\Desktop\backend_prosjekter\fritids_prosjekter\obj\Debug\net8.0\ref\fritids_prosjekter.dll
