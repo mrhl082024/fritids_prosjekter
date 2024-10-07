@@ -1,50 +1,34 @@
-﻿namespace fritids_prosjekter;
+﻿using System.Runtime.CompilerServices;
+using System.Transactions;
+
+namespace fritids_prosjekter;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // initialize variables - graded assignments 
-        decimal currentAssignments = 5m;
+        double currentAssignments = 3;
+        string elevNavn;
+        string grade;
 
-        int sophia1 = 93;
-        int sophia2 = 87;
-        int sophia3 = 98;
-        int sophia4 = 95;
-        int sophia5 = 100;
-        decimal sophiaResult = (sophia1 + sophia2 + sophia3 + sophia4 + sophia5) / currentAssignments;
+        elevNavn = "Lars";
+        int larsTest1 = 90;
+        int larsTest2 = 77;
+        int larsTest3 = 88;
+        double average = (larsTest1 + larsTest2 + larsTest3) / currentAssignments;
 
-        int nicolas1 = 80;
-        int nicolas2 = 83;
-        int nicolas3 = 82;
-        int nicolas4 = 88;
-        int nicolas5 = 85;
-        decimal nicolasResult = (nicolas1 + nicolas2 + nicolas3 + nicolas4 + nicolas5) / currentAssignments;
-
-        int zahirah1 = 84;
-        int zahirah2 = 96;
-        int zahirah3 = 73;
-        int zahirah4 = 85;
-        int zahirah5 = 79;
-        decimal zahirahResult = (zahirah1 + zahirah2 + zahirah3 + zahirah4 + zahirah5) / currentAssignments;
-
-        int jeong1 = 90;
-        int jeong2 = 92;
-        int jeong3 = 98;
-        int jeong4 = 100;
-        int jeong5 = 97;
-        decimal jeongResult = (jeong1 + jeong2 + jeong3 + jeong4 + jeong5) / currentAssignments;
-
-
-
-        string studentGrades = "Student \tGrade";
-        Console.WriteLine(studentGrades);
-
-        Console.WriteLine($"Sophia\t\t{sophiaResult}\tA");
-        Console.WriteLine($"Nicolas\t\t{nicolasResult}\tB");
-        Console.WriteLine($"Zahirah\t\t{zahirahResult}\tB");
-        Console.WriteLine($"Jeong\t\t{jeongResult}\tA");
-
+        if (average >= 90)
+        {
+            grade = "A";
+            Console.WriteLine("Student\t\tPoeng\t\tKarakter");
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average <= 90)
+        {
+            grade = "B";
+            Console.WriteLine("Student\t\tPoeng\t\tKarakter");
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
 
 
 
