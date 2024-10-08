@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fritids_prosjekter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a152b9b2933324c10c66e8efd57755d71cd2d962")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a07b996d0acc1dae0c7e6ea0b3d46da7f0910be5")]
 [assembly: System.Reflection.AssemblyProductAttribute("fritids_prosjekter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fritids_prosjekter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
