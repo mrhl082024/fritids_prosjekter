@@ -3,20 +3,6 @@ using System.Transactions;
 
 namespace fritids_prosjekter;
 
-class Student
-{
-    public int currentAssignments;
-    string elevName;
-    string grade;
-    double average;
-    public Student(string name)
-    {
-        currentAssignments = 0;
-        elevName = name;
-        grade = "";
-        average = 0;
-    }
-}
 
 class Program
 {
@@ -27,7 +13,6 @@ class Program
         string grade;
         double average;
 
-        var lars = new Student("Lars");
 
         elevNavn = "Lars";
         int larsTest1 = 90;
@@ -42,9 +27,29 @@ class Program
             grade = "A";
             Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
         }
-        else if (average <= 90)
+        else if (average >= 80)
         {
             grade = "B";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 70)
+        {
+            grade = "C";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 60)
+        {
+            grade = "D";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 50)
+        {
+            grade = "E";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average < 50)
+        {
+            grade = "F";
             Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
         }
 
@@ -62,11 +67,31 @@ class Program
         if (average >= 90)
         {
             grade = "A";
-            Console.WriteLine($"{elevNavn}\t\t{(int)average}\t\t{grade}");
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
         }
-        else if (average <= 90)
+        else if (average >= 80)
         {
             grade = "B";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 70)
+        {
+            grade = "C";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 60)
+        {
+            grade = "D";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average >= 50)
+        {
+            grade = "E";
+            Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
+        }
+        else if (average < 50)
+        {
+            grade = "F";
             Console.WriteLine($"{elevNavn}\t\t{average}\t\t{grade}");
         }
 
